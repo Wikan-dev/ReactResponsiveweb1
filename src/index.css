@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  src: url("./fonts/Segoe/UI.ttf");
+}
+
+@theme {
+  --font-segoe: Segoe-Ui, "sans-serif";
+}
