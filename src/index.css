@@ -7,4 +7,5 @@
 
 @theme {
   --font-segoe: Segoe-Ui, "sans-serif";
+  --drop-shadow-cartoon:  0, 5px, 0, black;
 }

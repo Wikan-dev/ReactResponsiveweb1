@@ -63,7 +63,7 @@ const App = () => {
       </div>
       {/* header */}
       <div>
-        <div className="flex flex-col-reverse 2xl:flex-row flex-wrap justify-center">
+        <div className="flex flex-col-reverse 2xl:flex-row flex-wrap justify-center mx-auto max-lg:w-100">
           <div className="flex flex-col xl:m-15">
             <div className="flex flex-col">
               <h1 className="font-bold text-[#F9B800]">RISUS PREASENT VULPUTATE</h1>
@@ -82,29 +82,29 @@ const App = () => {
                 <Menu width='fit-content' desk="Pellentesque Tempus" />
                 <Menu width='fit-content' desk="Mauris Fermentum Present" />
               </div>
-              <button className="bg-[#F9B800] w-auto max-w-80 text-[20px] h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10">Lorem Ipsum</button>
+              <button className="bg-[#F9B800] w-auto max-w-80 text-[20px] h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10 hover:scale-105 transition-all hover:outline hover:drop-shadow-md/100" >Lorem Ipsum</button>
             </div>
           </div>
           
-          <img src={ilustrasi} alt="image" className="w-100 h-100 2xl:mt-20"/>
+          <img src={ilustrasi} alt="image" className="sm:w-100 sm:h-100 w-80 2xl:mt-20"/>
         </div>        
       </div>
       <div className="w-full min-[1110px]:h-220 h-520 bg-[#F9B800] absolute left-0 mt-50 -skew-y-10"></div>
-      <div className="z-10 relative flex flex-row-reverse top-30 xl:justify-between flex-wrap justify-center">
-        <img src={ils2} alt="ilustrasi" className="w-150 h-150 mt-30 md:mt-50" />
+      <div className="z-10 relative flex flex-row-reverse top-30 xl:justify-between flex-wrap justify-center min-[2000px]:mx-100">
+        <img src={ils2} alt="ilustrasi" className="sm:w-150 sm:h-150 w-80 h-80 mt-30 md:mt-50" />
         <div className="min-[1110px]:mt-90 ">
           <h1 className="font-bold text-[30px] text-center sm:text-left md:text-[50px] w-auto md:max-w-100">Phasellus a vitae iaculis magna eleifend pulvinar velit odio.</h1>
           <p className="w-auto max-w-100 text-center xl:text-left">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et. </p>
-          <button className="bg-black w-80 text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10">Lorem Ipsum</button>
+          <button className="bg-black w-80 text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10 hover:scale-105 transition-all hover:outline hover:drop-shadow-md/100">Lorem Ipsum</button>
         </div>
       </div>
 
       <div className="w-full h-450 bg-[#262626] absolute left-0 mt-50 -skew-y-10 z-10"></div>
-      <div className="relative top-100 flex justify-between z-20 flex-wrap  justify-center">
+      <div className="relative top-100 flex xl:justify-between min-[2000px]:mx-100 z-20 flex-wrap justify-center">
         <div className="relative z-20 -top-20 xl:top-100 w-100 ">
           <h1 className="text-[#F9B800] text-[10px] xl:text-[30px]">Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh velit magna consectetur leo. </h1>
           <h1 className="font-[400] text-[30px] text-white">Cursus Integer Conseq Aliquam Tristique. </h1>
-          <button className="bg-white w-80 text-[20px] text-black h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10">Lorem Ipsum</button>
+          <button className="bg-white w-80 text-[20px] text-black h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10 hover:scale-105 transition-all hover:outline hover:drop-shadow-md/100">Lorem Ipsum</button>
         </div>
         <div className="flex gap-10 flex-wrap justify-center">
           <div className="flex gap-10 flex-col">
@@ -117,8 +117,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-800 min-[1600px]:h-520 bg-[#F9B800]  absolute left-0 mt-50 -skew-y-10"></div>
-      <div className="w-full p-20 bg-white relative z-10 top-200 rounded-[100px] flex flex-row flex-wrap md:flex-row justify-center">
+      <div className="w-full h-550 md:h-700 min-[1600px]:h-520 bg-[#F9B800] absolute left-0 mt-50 -skew-y-10"></div>
+      <div className="w-full p-20 bg-white relative z-10 top-120 xl:top-200 rounded-[100px] flex flex-row flex-wrap md:flex-row justify-center ">
         <img src={photo} alt="photo" className="rounded-full w-80" />
         <div className="flex flex-col ml-10 mt-20">
           <h1 className="font-[400] text-[40px]">What Our Customers Thought?</h1>
@@ -126,12 +126,12 @@ const App = () => {
         </div>
       </div>
 
-        <div className="flex flex-col-reverse xl:flex-row relative z-10 mt-220 xl:px-15 xl:justify-between flex-wrap justify-center">
-          <div className="flex flex-col  xl:m-15">
-            <div className="flex flex-col">
+        <div className="flex flex-col-reverse xl:flex-row relative z-10 mt-100 xl:mt-220 xl:px-15 xl:justify-between flex-wrap justify-center min-[2000px]:mx-100 max-lg:w-100 mx-auto  ">
+          <div className="flex flex-col xl:m-15">
+            <div className="flex flex-col max-w-80">
               <h1 className="font-[300] max-w-120 text-[50px]/15 mb-10">Cursus Integer Consequat Tristique.</h1>
             </div>
-            <div className="gap-3 flex flex-col">
+            <div className="gap-3 flex flex-col max-w-80 ">
               <div className="flex gap-3 flex-col md:flex-row">
                 <Menu width='fit-content' desk="Cursus Integer" />
                 <Menu width='fit-content' desk="Integer Consequat" />
@@ -144,13 +144,13 @@ const App = () => {
                 <Menu width='fit-content' desk="Pellentesque Tempus" />
                 <Menu width='fit-content' desk="Mauris Fermentum Present" />
               </div>
-              <button className="bg-[#262626] w-auto text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10">Lorem Ipsum</button>
+              <button className="bg-[#262626] w-auto max-w-80 text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10 hover:scale-105 transition-all hover:outline hover:drop-shadow-md/100">Lorem Ipsum</button>
             </div>
           </div>
-          <img src={ils3} alt="image" className="w-100 h-100 mt-20"/>
+          <img src={ils3} alt="image" className="md:w-100 md:h-100 w-80 h-90 mt-20"/>
         </div>
         {/* option menu */}
-        <div className="relative z-20 flex gap-10 flex-col top-120" >
+        <div className="relative z-20 flex gap-10 flex-col top-120 min-[360px]:top-160 md:top-80 min-[2000px]:mx-100" >
           <div>
             <h1 className="relative z-30 text-white font-[300] text-[90px] text-center">
               this is the main title
@@ -172,11 +172,11 @@ const App = () => {
       
         <div className="w-full h-260 bg-[#FFF1C9]"></div>
 
-        <div className="relative z-10 bottom-70 flex flex-wrap">
+        <div className="relative z-10 bottom-70 flex flex-wrap min-[2000px]:mx-100">
           <h1 className="font-[300] text-[50px] max-w-200">
             Vulputate et pulvinar ethre Suspendisse tellus consecteur
           </h1>
-          <button className="bg-[#262626] flex top-5 relative xl:ml-auto w-80 text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10">Lorem Ipsum</button>
+          <button className="bg-[#262626] flex top-5 relative xl:ml-auto w-80 text-[20px] text-white h-15 font-bold rounded-full flex flex-end pl-10 pt-4 mt-10 hover:scale-105 transition-all hover:outline hover:drop-shadow-md/100">Lorem Ipsum</button>
           
           <div className="h-70 w-full flex flex-wrap">
             <h1 className="mt-20 md:mt-40 mr-10 auto">
